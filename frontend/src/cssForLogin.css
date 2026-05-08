@@ -5,7 +5,6 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
-/* same background as welcome */
 .mainBox {
     min-height: 100vh;
     display: flex;
@@ -15,7 +14,6 @@
     background: #f5f7fb;
 }
 
-/* same card style */
 .card {
     width: 100%;
     max-width: 380px;
@@ -30,14 +28,12 @@
     position: relative;
 }
 
-/* title */
 .title {
     text-align: center;
     font-size: 24px;
     color: #222;
 }
 
-/* subtitle */
 .subtitle {
     text-align: center;
     font-size: 13px;
@@ -45,7 +41,6 @@
     margin-bottom: 20px;
 }
 
-/* form */
 .form {
     display: flex;
     flex-direction: column;
@@ -58,7 +53,6 @@ label {
     margin-bottom: 5px;
 }
 
-/* input */
 input {
     padding: 10px;
     border-radius: 6px;
@@ -71,7 +65,6 @@ input:focus {
     outline: none;
 }
 
-/* button */
 .btn {
     width: 100%;
     padding: 12px;
@@ -84,7 +77,6 @@ input:focus {
     cursor: pointer;
 }
 
-/* primary */
 .primary {
     background: #4a90e2;
     color: white;
@@ -94,13 +86,11 @@ input:focus {
     background: #357bd8;
 }
 
-/* message */
 .msg {
     font-size: 12px;
     margin-top: 5px;
 }
 
-/* switch text */
 .switch {
     margin-top: 15px;
     text-align: center;
@@ -114,7 +104,6 @@ input:focus {
     font-weight: 500;
 }
 
-/* back arrow */
 .back-arrow {
     position: absolute;
     top: 15px;

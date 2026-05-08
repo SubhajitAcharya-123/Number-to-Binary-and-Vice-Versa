@@ -9,17 +9,14 @@ body {
     margin: 0;
     background: #f5f7fb;
 }
-/* Background */
 .main {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* background: #f5f7fb; */
 }
 
-/* Wrapper */
 .wrapper {
     display: flex;
     gap: 20px;
@@ -27,7 +24,6 @@ body {
     max-width: 900px;
 }
 
-/* Cards */
 .box {
     flex: 1;
     background: white;
@@ -42,7 +38,6 @@ body {
     gap: 16px;
 }
 
-/* Heading */
 h2 {
     font-size: 18px;
     font-weight: 600;
@@ -50,7 +45,6 @@ h2 {
     text-align: center;
 }
 
-/* Fields */
 .field {
     display: flex;
     flex-direction: column;
@@ -62,7 +56,6 @@ label {
     color: #555;
 }
 
-/* Input */
 input {
     padding: 10px;
     border-radius: 6px;
@@ -76,7 +69,6 @@ input:focus {
     outline: none;
 }
 
-/* Output */
 .answerBox {
     height: 38px;
     border-radius: 6px;
@@ -92,7 +84,6 @@ input:focus {
     color: #333;
 }
 
-/* Button */
 .convert-btn {
     margin-top: 10px;
     padding: 10px;
@@ -113,12 +104,10 @@ input:focus {
     background: #357bd8;
 }
 
-/* Message */
 .msg {
     font-size: 12px;
 }
 
-/* Back Arrow */
 .back-arrow {
     position: absolute;
     top: 20px;
@@ -129,7 +118,6 @@ input:focus {
     color: #333;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .wrapper {
         flex-direction: column;
