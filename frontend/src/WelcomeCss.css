@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+.mainBox {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f5f7fb;
+}
+
+/* Card */
+.card {
+    width: 100%;
+    max-width: 420px;
+    padding: 32px;
+
+    background: #ffffff;
+    border-radius: 12px;
+
+    border: 1px solid #e6e8ec;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* Icon */
+.icon {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+/* Buttons container */
+.actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+/* Primary */
+.primary {
+    background: #4a90e2;
+    color: white;
+}
+
+.primary:hover {
+    background: #357bd8;
+}
+
+/* Secondary */
+.secondary {
+    background: #f1f3f5;
+    color: #333;
+}
+
+.secondary:hover {
+    background: #e2e6ea;
+}
+
+/* Footer */
+.footer-text {
+    margin-top: 18px;
+    font-size: 12px;
+    color: #888;
+}

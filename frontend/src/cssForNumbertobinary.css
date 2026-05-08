@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fb;
+}
+/* Background */
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background: #f5f7fb; */
+}
+
+/* Wrapper */
+.wrapper {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Cards */
+.box {
+    flex: 1;
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Heading */
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+/* Fields */
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Input */
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Output */
+.answerBox {
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+
+    background: #fafafa;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+    font-size: 14px;
+    color: #333;
+}
+
+/* Button */
+.convert-btn {
+    margin-top: 10px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #4a90e2;
+    color: white;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.convert-btn:hover {
+    background: #357bd8;
+}
+
+/* Message */
+.msg {
+    font-size: 12px;
+}
+
+/* Back Arrow */
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    font-size: 22px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
